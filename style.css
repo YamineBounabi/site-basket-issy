@@ -1,0 +1,275 @@
+body{
+background-image:url(basketballcourt1.jpg);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+margin:0px;
+}
+
+ul{
+list-style:none; 
+}
+
+.container{
+	width:1020px;
+	margin:auto;
+	font-family:Arial;
+    /*background-color: #a3bbc1;*/
+    opacity: 0.7;
+}
+
+.carrousel img {
+    width: 1020px;
+    height: 400px;
+    margin: auto;
+}
+
+nav li {
+	color:white}
+
+nav a{
+	text-decoration:none;
+	color: white;
+}
+
+nav a:hover{
+	color:yellow;
+}
+
+h2{
+	text-align: center;
+}
+
+main{
+	width:1020px;
+	margin:auto;
+	}
+
+article{
+	height:200px;
+	margin-left: 10px;
+	margin-right:10px;
+	border:solid 2px lightgrey;
+	margin-bottom:10px;
+	overflow:auto;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+
+article h4 {
+	font-weight: bold;
+	font-size: 24px;
+  font-family: 'Fjalla One', sans-serif;
+	margin: 0px;
+}
+
+article p {
+    font-family: 'Average', serif;   
+}
+
+aside{
+	margin-left,margin-right:15px;
+	height:306px;
+	border-top:1px black solid;
+	border-bottom:1px black solid;
+	margin-bottom:10px;
+	overflow:auto;
+	background-color: #121A36;
+}
+
+.cont_article{
+	display:inline-block;
+	width:65%;
+	overflow:auto;
+  padding-top: 5px;
+}
+
+
+.cont_aside{
+	vertical-align:top;
+	display:inline-block;
+	width:33%;
+	margin-left:10px
+	overflow:auto;
+	border:solid 2px lightgrey;
+	}
+
+.cont_aside h3 {
+       color: #E6E1B3;
+        font-weight: bold;
+        text-align: center;
+        font-family: "Fjalla One",sans-serif;
+}
+
+.cont_aside p {
+    color: antiquewhite;
+    font-family: "Average",serif;   
+}
+
+	h3, h4, p{
+	margin-top:0px;
+} 
+
+.partenaires {
+		background-color: #fff;
+    padding : 10px;
+}
+
+.partenaires img{
+	width:100px;
+	height:100px;
+  border: 3px solid navy;
+  border-radius: 18px;
+  margin-left: 70px;
+}
+
+.media{
+	border: 1px solid navy;
+	margin-top: 30px;
+	background-color: #fff;
+}
+
+.media .titre_media, .media .facebook {
+	display: inline-block;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+.media h2 {
+	font-size: 30px;
+	color: #9FA2A2;
+	margin: 30px;
+}
+
+.media .facebook {
+	color: #000;
+}
+
+@font-face {
+    font-family: 'Mono Social Icons Font';
+    src: url('MonoSocialIconsFont-1.10.eot');
+    src: url('MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+         url('MonoSocialIconsFont-1.10.woff') format('woff'),
+         url('MonoSocialIconsFont-1.10.ttf') format('truetype'),
+         url('MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+    src: url('MonoSocialIconsFont-1.10.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.symbol, a.symbol:before {
+    font-family: 'Mono Social Icons Font';
+    -webkit-text-rendering: optimizeLegibility;
+    -moz-text-rendering: optimizeLegibility;
+    -ms-text-rendering: optimizeLegibility;
+    -o-text-rendering: optimizeLegibility;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+
+a.symbol:before {
+    content: attr(title);
+    margin-right: 0.3em;
+    font-size: 130%;
+}
+
+footer {
+	border-bottom: 1px solid #000;
+}
+
+footer p {
+	font-weight: bold;
+	padding: 0px;
+	margin: 0px;
+}
+
+footer a {
+	color: #4B504F; 
+}
+
+nav{
+	height: 114px;
+	border-bottom:1px solid lightgrey;
+	border-top:1px solid lightgrey;
+	text-align: center;
+	background-color: #474A76;
+	position: relative;
+}
+
+nav ul li{
+	text-align: center;}
+
+
+ul:nth-child(1):hover ul{
+	display:block;
+}
+
+ul:nth-child(2):hover ul{
+	display:block;
+}
+ul:nth-child(3):hover ul{
+	display:block;
+}
+ul:nth-child(4):hover ul{
+	display:block;
+}
+ul:nth-child(5):hover ul{
+	display:block;
+}
+ul:nth-child(6):hover ul{
+	display:block;
+}
+
+.deux{
+	text-align: center;
+	width: 150px;
+	position: absolute;
+	width:145px;
+	border-radius:4px;;
+	line-height: 28px;
+}
+
+.deux li {
+border-bottom:1px solid white; 
+}
+
+
+.un{
+	width: 145px;
+	position: relative;
+	display: inline-block;
+	margin-top: 53px;
+}
+
+
+
+.un ul {
+	 position: absolute;
+    top:62px;
+    max-height:0em;
+    margin:0;
+    padding:0;
+    background-color:#474A76;
+    overflow:hidden;
+    transition: 1s all 0.3s;
+}
+
+
+.un li:hover ul{
+    max-height:20em;
+}
+
+nav img {
+    height: 110px;
+    position: absolute;
+    left: 50px;
+}
+
+.carrousel {
+    margin-top: 25px;
+}
